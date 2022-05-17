@@ -75,8 +75,6 @@ const UserManagement = () => {
           <UserForm
             onClose={handleCloseForm}
             onSubmit={handleSubmit}
-            onHandleEditUser
-            onEdit
             userItem={userItem}
           />
         </Modal.Body>
